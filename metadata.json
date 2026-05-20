@@ -1,0 +1,6 @@
+{
+  "name": "VaultQueue",
+  "description": "A premium offline-first Expense Tracker with a dark minimal fintech visual interface and dynamic analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
