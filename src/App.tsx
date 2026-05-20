@@ -22,6 +22,7 @@ import {
   User,
   PlayCircle
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 import { FintechProvider, useFintech } from './context/FintechContext';
 import Sidebar from './components/layout/Sidebar';
@@ -355,6 +356,7 @@ export default function App() {
   return (
     <FintechProvider>
       <AppContent />
+      <Analytics />
     </FintechProvider>
   );
 }
